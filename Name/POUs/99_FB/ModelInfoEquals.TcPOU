@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1">
+  <POU Name="ModelInfoEquals" Id="{e2fc5e56-b115-4c13-b67c-cce89fbdd5a3}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION ModelInfoEquals : BOOL
+VAR_INPUT
+    a : DUT_ModelInfo;
+    b : DUT_ModelInfo;
+END_VAR
+VAR
+    i : INT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[
+ModelInfoEquals := TRUE;
+IF a.sName <> b.sName THEN
+    ModelInfoEquals := FALSE;
+END_IF
+FOR i := 0 TO cMaxTypeNo - 1 DO
+    IF a.abType[i] <> b.abType[i] THEN
+        ModelInfoEquals := FALSE;
+    END_IF
+    IF a.aiType[i] <> b.aiType[i] THEN
+        ModelInfoEquals := FALSE;
+    END_IF
+END_FOR
+FOR i := 0 TO cMaxAxisNo - 1 DO
+    IF a.arPosition[i] <> b.arPosition[i] THEN
+        ModelInfoEquals := FALSE;
+    END_IF
+    IF a.arSpeed[i] <> b.arSpeed[i] THEN
+        ModelInfoEquals := FALSE;
+    END_IF
+END_FOR
+]]></ST>
+    </Implementation>
+  </POU>
+</TcPlcObject>

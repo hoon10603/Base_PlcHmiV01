@@ -61,6 +61,9 @@
     <Compile Include="POUs\Test.TcPOU">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\99_FB\ModelInfoEquals.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Visualization Manager.TcVMO">
       <SubType>Code</SubType>
     </Compile>
