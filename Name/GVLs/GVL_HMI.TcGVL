@@ -32,6 +32,7 @@ VAR_GLOBAL
 // Index
 	iTextIndex			: INT;	// By 'TextList' 0= Manual, 1= Auto
 	iMainFrame			: INT; // 0= Main, 1= Manual, 2= Setting, 3= Model, 4= Data, 5= Alarm
+	iModelIndex			: INT;
 
 // Frame Number
     bMainScreen			: BOOL;

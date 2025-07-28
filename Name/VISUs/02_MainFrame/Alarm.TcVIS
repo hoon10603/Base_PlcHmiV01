@@ -5,7 +5,7 @@
       <Data>
         <o xml:space="preserve" t="VisualObject">
           <n n="LastVisuLanguageModelEntry" />
-          <v n="UniqueIdGenerator">"72"</v>
+          <v n="UniqueIdGenerator">"78"</v>
           <o n="VisualElemList" t="VisualElemList">
             <l n="VisualElementList" t="VisualElemCollection" cet="GenericVisualElem">
               <o>
@@ -379,8 +379,8 @@
                       <v n="Id">1176519758L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-1381912</v>
-                          <v n="CanonicalName">"Element-Table-SelectionColor"</v>
+                          <v n="Color">-16772212</v>
+                          <v n="CanonicalName">"Dialog-HeaderColor"</v>
                         </o>
                       </l>
                     </o>
@@ -388,8 +388,8 @@
                       <v n="Id">1905889384L</v>
                       <l n="Value" t="ArrayList" cet="NamedStyleColor">
                         <o>
-                          <v n="Color">-16777216</v>
-                          <v n="CanonicalName">"Element-Table-SelectionFontColor"</v>
+                          <v n="Color">-1</v>
+                          <v n="CanonicalName">"Element-Fill-Color"</v>
                         </o>
                       </l>
                     </o>
@@ -745,6 +745,10 @@
                     <o>
                       <v n="Id">3597700437L</v>
                       <v n="Value">false</v>
+                    </o>
+                    <o>
+                      <v n="Id">1041310536L</v>
+                      <v n="Value">"SEL_ROW"</v>
                     </o>
                   </l>
                 </o>

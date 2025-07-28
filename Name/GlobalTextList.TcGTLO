@@ -14,6 +14,14 @@
               </l>
             </o>
             <o>
+              <v n="TextID">"75"</v>
+              <v n="TextDefault">"%s"</v>
+              <l n="LanguageTexts" t="ArrayList" cet="String">
+                <v></v>
+                <v></v>
+              </l>
+            </o>
+            <o>
               <v n="TextID">"410"</v>
               <v n="TextDefault">"a"</v>
               <l n="LanguageTexts" t="ArrayList" cet="String">

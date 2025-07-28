@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{000E98B2-8547-4589-B735-956153C7D01C}" Name="Name" PrjFilePath="Name\Name.plcproj" TmcFilePath="Name\Name.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{3CFCFF82-DCA4-A882-0432-7AE38C28707B}" TmcPath="Name\Name.tmc">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{B1692F0E-1142-F6CF-5455-0A65C01C404E}" TmcPath="Name\Name.tmc">
 					<Name>Name Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Contexts>
